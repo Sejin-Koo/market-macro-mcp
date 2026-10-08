@@ -1,0 +1,8 @@
+{
+  "regions": ["icn1"],
+  "functions": {
+    "api/mcp.js": {
+      "maxDuration": 60
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "market-macro-mcp",
+  "version": "1.0.0",
+  "description": "시장·거시 데이터 MCP 서버 — 한국수출입은행 환율·금리, KOSIS 국가통계, 한국전력 전력데이터, 국토교통부 부동산 실거래가, 한국천문연구원 특일정보를 실시간 조회",
+  "type": "module",
+  "scripts": {
+    "test": "node smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "exim",
+    "kosis",
+    "kepco",
+    "rtms",
+    "holiday"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
