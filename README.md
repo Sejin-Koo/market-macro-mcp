@@ -24,7 +24,7 @@
 
 `kepco_get_data` 데이터셋: `contract_type`(계약종별)·`industry_type`(산업분류별)·`business_type`(업종별)·`house_avg`(가구평균)·
 `cust_change`(고객 신설·증설·해지)·`billing_type`(요금청구방식)·`welfare`(복지할인)·`ev_charger`(충전소 설치현황)·
-`ev_status`(충전기 운영정보)·`renewable`(신재생 계약현황)·`dispersed_gen`(분산전원 연계 여유용량). 데이터셋별 필수 인자는 도구 설명에 있습니다.
+`ev_status`(충전기 운영정보)·`renewable`(신재생 계약현황)·`dispersed_gen`(분산전원 연계 여유용량). 데이터셋별 필수 인자는 도구 설명에 있습니다. `ev_charger`는 시도를 비우면 서버가 한전 시도 코드표를 돌며 모두 불러 전국 합계와 시도별 표를 줍니다(광주·전남 통합 코드 12에 자료가 생기면 옛 24·36은 빼고 더함).
 
 ## 환경변수
 
